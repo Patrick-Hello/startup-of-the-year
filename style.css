@@ -305,6 +305,11 @@ main{
     text-align: center;
 }
 
+.container4{
+    display: flex;
+    justify-content: space-around;
+}
+
 .images3{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
