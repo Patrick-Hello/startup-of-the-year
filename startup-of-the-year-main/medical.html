@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-v2.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="header">
+
+        <img src="images/logo.png" alt="" width="80px" height="80px">
+
+        <h2>Football Academy Enrolment</h2>
+
+        <div class="nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="register.html">Register</a></li>
+                <!-- <li><a href="branches.html">Branches</a></li> -->
+            </ul>
+        </div>
+    </div>
+
+    <div class="container">
+        <main>
+            <h1 class="title">Medical Information</h1>
+            <!-- <h2>Medical Information</h2> -->
+
+            <div class="form-holder">
+                <form action="" class="form-infos">
+                    <div class="input-div">
+                        <label for="blood-group">Blood Group:</label>
+                        <select id="blood-group" name="blood-group">
+                            <option value="">Select Blood Group</option>
+                            <option>A+</option>
+                            <option>A-</option>
+                            <option>B+</option>
+                            <option>B-</option>
+                            <option>AB+</option>
+                            <option>AB-</option>
+                            <option>O+</option>
+                            <option>O-</option>
+                        </select>
+                    </div>
+
+                    <div class="input-div">
+                        <label for="genotype">Genotype:</label>
+                        <select id="genotype" name="genotype">
+                            <option value="">Select Genotype</option>
+                            <option>AA</option>
+                            <option>AS</option>
+                            <option>AC</option>
+                            <option>SS</option>
+                            <option>SC</option>
+                        </select>
+                    </div>
+
+                    <div class="input-div">
+                        <label for="condition">Medical Condition:</label>
+                        <input type="text" id="condition" placeholder="e.g. Asthma (Leave blank if none)">
+                    </div>
+
+                    <div class="input-div">
+                        <label for="allergy">Allergies:</label>
+                        <input type="text" id="allergy" placeholder="Enter any allergies">
+
+                    </div>
+
+                    <div class="input-div">
+                        <label for="medication">Current Medication:</label>
+                        <input type="text" id="medication" placeholder="If any">
+                    </div>
+
+
+                    <div class="input-div">
+                        <label for="emergency-name">Emergency Contact Name:</label>
+                        <input type="text" id="emergency-name" placeholder="Full Name">
+                    </div>
+
+
+                    <div class="input-div">
+                        <label for="emergency-phone">Emergency Contact Number:</label>
+                        <input type="tel" id="emergency-phone" placeholder="Phone Number">
+                    </div>
+
+
+
+                    <label>Medical Fitness:</label>
+
+                    <div class="input-div">
+                        <label for="fit">Fit to Play</label>
+                        <input type="radio" id="fit" name="fitness" value="Fit">
+
+                        <label for="clearance">Requires Medical Clearance</label>
+                        <input type="radio" id="clearance" name="fitness" value="Requires Clearance">
+                    </div>
+
+
+
+
+                    <!-- <div class="navigation-buttons">
+                        <button type="button">Previous</button>
+                        <button type="submit">Next</button>
+                    </div> -->
+                </form>
+            </div>
+            <div class="navigation-buttons">
+                <button class="prev-btn" type="button" onclick="window.location.href='register.html'">
+                    Previous
+                </button>
+
+                <button class="next-btn" type="button" onclick="window.location.href='submit.html'">
+                    Submit
+                </button>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>
